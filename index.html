@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Intro2r practise by AlyceRussell</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Intro2r practise</h1>
+        <p>A Light Introduction to R - Practise Questions</p>
+
+        <p class="view"><a href="https://github.com/AlyceRussell/Intro2R_Practise">View the Project on GitHub <small>AlyceRussell/Intro2R_Practise</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/AlyceRussell/Intro2R_Practise/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/AlyceRussell/Intro2R_Practise/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/AlyceRussell/Intro2R_Practise">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p><strong>1. Load the women data from the datasets package and assign it to a variable called "women". You will have a data frame containing the height (inches) and weight (pounds) of 15 women.</strong></p>
+
+<p>a. Convert height to m and weight into kg using mathematical operations. Do this by creating new variables height_m and weight_kg, rounding both to 2 decimals. Note: 1 inch = 0.0254 m and 1 pound = 0.454 kg.</p>
+
+<p>b. Calculate BMI from these newly created variables, to 2 decimal places, and then bind this to the women data frame. Note: BMI = weight(kg)/(height(m)^2). Modify this equation to calculate using your variables.</p>
+
+<p>c. What is the mean weight in kg among this sample of women?</p>
+
+<p>d. How many women have a weight in kg that is less than the mean of this sample?</p>
+
+<p>e. Create a new variable called "BMI_f" for the BMI factor levels. You will need to use logical operations here. </p>
+
+<pre><code>        Low &lt; 18
+        Healthy 18 - 24.99
+        Overweight 25 - 29.99
+        Obese &gt;= 30
+</code></pre>
+
+<p>How many women are considered healthy in this dataset? </p>
+
+<p><strong>2. Load the file called <code>DASS_21.csv</code> into your R environment. You will have a data frame containing the raw results of DASS-21 questionnaire completed by 10 people.</strong></p>
+
+<p>a. Using the DASS-21 handout, find the Depression score for each individual. What is the average depression score (HINT: use <code>rowSums</code> function)?</p>
+
+<p>b. Find the Anxiety score for each individual. What is the average anxiety score?</p>
+
+<p>c. Find the Stress score for each individual. What is the average stress score?</p>
+
+<p>d. Find the total DASS score. Find the average for males and females, respectively. (HINT: use a logical function and index)</p>
+
+<p>e. Create a boxplot for total DASS in males versus females. Is there a difference? (HINT: use code in workshop)</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/AlyceRussell">AlyceRussell</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
